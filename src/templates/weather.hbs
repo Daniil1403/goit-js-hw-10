@@ -1,0 +1,22 @@
+<h2 class='weather__title'>Weather</h2>
+<p class='weather__city'>{{name}}</p>
+<div class='temp-box'>
+  <p class='weather__temperature'>{{temp}} &#8451 </p>
+  <p class='weather__cloud'>{{humidity}} %</p>
+  <p class='weather__pressure'>{{pressure}} hPa</p>
+</div>
+<div class='desc-box'>
+  <img class='weather__icon' src='{{icon}}' alt='' width='50' height='50' />
+  <p class='weather__description'>{{description}}</p>
+</div>
+<div class='wind-box'>
+  <p class='weather__wind'>{{windSpeed}} m/s</p>
+  <img
+    style=' width: 30px; height: 30px; transform: rotate({{windDeg}}deg)'
+    class='wind-arrow'
+    src='{{windArrow}}'
+    alt='Arrow'
+    width='30'
+  />
+</div>
+<button type='button' class='map-button'>See on the map</button>
