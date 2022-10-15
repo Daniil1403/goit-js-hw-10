@@ -1,3 +1,19 @@
+//HBS
+// npm install --save-dev parcel-transformer-hbs
+
+// add to parcel:
+//  "transformers": {
+//     "*.hbs": [
+//         "parcel-transformer-hbs"
+//       ]
+//     }
+
+//npm i notiflix
+//npm i --save lodash.debounce
+
+//import markup from './templates/markup.hbs';
+//const debounce = require('lodash.debounce');
+
 import './css/styles.css';
 import { fetchCountries } from './js/fetchCountries';
 import countryInfo from './templates/country-info.hbs';
